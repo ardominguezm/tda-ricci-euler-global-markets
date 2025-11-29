@@ -1,4 +1,3 @@
-```
 # data/raw/
 
 This folder contains the **raw financial time series** downloaded directly from
