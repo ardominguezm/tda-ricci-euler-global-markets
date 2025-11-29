@@ -36,7 +36,7 @@ Files:
 
 ---
 
-## 📌 Figure 2 — Thresholded Market Networks (Annual)
+## Figure 2 — Thresholded Market Networks (Annual)
 **Source:** `03_annual_analysis.ipynb` / `plots_static.py`
 
 Contains:
