@@ -25,7 +25,7 @@ by MICIU/AEI/10.13039/501100011033.
 ## Repository Structure
 
 ```
-tda-ricci-global-stock-markets/
+tda-ricci-euler-global-stock-markets/
 │
 ├── data/
 │   ├── raw/              # Raw downloaded index prices (Yahoo Finance)
