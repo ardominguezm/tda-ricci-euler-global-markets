@@ -1,4 +1,4 @@
-# Topological and Geometric Analysis of Global Stock Markets during COVID-19 (2017–2022)
+# Topological and Geometric Analysis of Global Stock Markets
 
 
 ---
