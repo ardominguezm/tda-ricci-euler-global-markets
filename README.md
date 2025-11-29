@@ -16,9 +16,39 @@ The project analyzes 45 global stock indices from 2017 to 2022 using a combined 
 - **Random Matrix Theory (RMT)**
 - **Sliding-window dynamical analysis**
 
-The codebase is modular, reproducible, and structured as a complete research pipeline suitable for publication, long-term archiving, and reuse.
-
 ---
 
 ## Repository Structure
+tda-ricci-global-stock-markets/
+│
+├── data/
+│   ├── raw/              # Raw downloaded index prices (Yahoo Finance)
+│   ├── interim/          # Temporally aligned, NA-filled data
+│   └── processed/        # Log-returns, correlation matrices, etc.
+│
+├── src/
+│   ├── download_data.py      # Download global stock index data
+│   ├── preprocess_data.py    # Align, clean, and compute log-returns
+│   ├── compute_correlations.py # Annual and sliding-window correlations
+│   ├── tda_analysis.py       # Persistence diagrams, Betti numbers, entropy
+│   ├── ricci_analysis.py     # Ricci curvature (static and dynamic)
+│   ├── euler_rmt_analysis.py # Euler characteristic + λ_max computation
+│   ├── plots_static.py       # Figures 1–4 (annual analysis)
+│   ├── plots_dynamic.py      # Figures 5–6 (sliding window)
+│   └── utils.py              # Helper functions
+│
+├── notebooks/
+│   ├── 01_download.ipynb
+│   ├── 02_preprocess.ipynb
+│   ├── 03_annual_analysis.ipynb
+│   └── 04_sliding_window.ipynb
+│
+├── results/
+│   ├── figures/          # Output figures used in the paper
+│   └── tables/           # CSV/TEX for tables
+│
+├── environment.yml
+├── requirements.txt
+├── CITATION.cff
+└── LICENSE
 
